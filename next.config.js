@@ -5,12 +5,17 @@ const nextConfig = {
     return [
       {
         source: '/map/bride',
-        destination: 'https://goo.gl/maps/8XfsYMK5mvP98VCR6',
+        destination: 'https://jeagerxjessiweddings.vercel.app/',
         permanent: true,
       },
       {
         source: '/map/groom',
-        destination: 'https://goo.gl/maps/z3z8p5cWBnzdKFRUA',
+        destination: 'https://jeagerxjessiweddings.vercel.app/',
+        permanent: true,
+      },
+      {
+        source: '/',
+        destination: 'https://jeagerxjessiweddings.vercel.app/',
         permanent: true,
       },
     ]
